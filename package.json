@@ -1,18 +1,15 @@
 {
-  "name": "import-http-webpack-plugin",
-  "version": "3.1.17",
-  "description": "",
+  "name": "module-federation-webpack-plugin",
+  "version": "0.1.0",
+  "description": "'webpack4' and 'webpack5' are universal 'module Federation' plug-ins, which are compatible with the original usage and extended",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhangHongEn/import-http-webpack-plugin/tree/main"
+    "url": ""
   },
   "keywords": [
     "webpack",
-    "systemjs",
-    "import http",
-    "chunk",
-    "tol level await",
-    "module federation"
+    "module federation",
+    "module-federation"
   ],
   "homepage": "",
   "main": "lib/plugin.js",
