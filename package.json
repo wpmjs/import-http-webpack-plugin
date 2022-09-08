@@ -1,6 +1,6 @@
 {
   "name": "module-federation-webpack-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "'webpack4' and 'webpack5' are universal 'module Federation' plug-ins, which are compatible with the original usage and extended",
   "repository": {
     "type": "git",
