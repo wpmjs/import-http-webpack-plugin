@@ -3,13 +3,13 @@ This enables webpack4 to import remote resources in a synchronous manner, optimi
 
 [中文文档](doc/chinese)
 
+It is recommended to use "[mf-webpack4](https://www.npmjs.com/package/mf-webpack4)" in line with the present and future ecology
+
 ### characteristic:
 
 1. Support the use of single instance and multiple instances of the same package. The same package can use multiple different versions at the same time.
 
 2. Support the introduction of packages with "amd", "UMD", "system" and other module specifications built by others.
-
-3. (under development) cross reference with module Federation https://www.npmjs.com/package/usemf
 
 <!-- 3. (to be supported) "import HTTP" introduces "module Federation exports".
 
