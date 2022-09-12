@@ -25,12 +25,10 @@
   "license": "ISC",
   "dependencies": {
     "pre-get": "^1.0.5",
-    "wpmjs": "^2.2.5"
+    "wpmjs": "^2.3.0",
   },
   "peerDependencies": {
     "loader-utils": "^1.4.0",
-    "terser": "^4.0.0",
-    "webpack": "^4.3.0",
     "webpack-sources": "^1.4.3"
   }
 }
