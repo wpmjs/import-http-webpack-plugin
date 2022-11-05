@@ -20,7 +20,7 @@ It is recommended to use "[mf-webpack4](https://www.npmjs.com/package/mf-webpack
 6. (to be supported) "module Federation shares" use "import http DEPs." -->
 
 Online attempt (including development hot update):
-https://stackblitz.com/github/wpmjs/wpmjs/tree/main/examples/hot-refresh?file=app2%2Fsrc%2FApp2.jsx
+https://stackblitz.com/github/wpmjs/import-http-webpack-plugin/tree/main/examples/hot-refresh?file=app2%2Fsrc%2FApp2.jsx
 
 ### Usage:
 ``` js
@@ -94,8 +94,8 @@ module.exports = {
 
 Remote single instance and multi instance configurations are determined by the identifier at the key, as shown in the following three webpack.config JS, which are 【a】, 【b】 and 【C】 in the order of introduction:
 
-*【A】 The "react" of 【a】 and 【b】 projects will use the first registered“ react@17 "Corresponding" https://assets.weimob.com/react @17/umd/react.development. JS "in this version, the" react "reference in the two projects is a singleton
-*【B】 If the project is used independently or introduced before the project 【a】“ react@17 "Can use" https://assets.weimob.com/react/umd/react.development.js "This version
+*【A】 The "react" of 【a】 and 【b】 projects will use the first registered“ react@17 "Corresponding" https://unpkg.com/react @17/umd/react.development. JS "in this version, the" react "reference in the two projects is a singleton
+*【B】 If the project is used independently or introduced before the project 【a】“ react@17 "Can use" https://unpkg.com/react/umd/react.development.js "This version
 *【A】 And "react" of 【c】 project will use "XX. Com"/ react@17 /umd/xx.js"、"xx.com/ react@18 /umd/xx. JS "there are many" react "references in these two versions and two projects
 
 ``` js

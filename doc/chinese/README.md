@@ -12,7 +12,7 @@
 
 ### 在线尝试（包含开发热更新）:
 
-https://stackblitz.com/github/wpmjs/wpmjs/tree/main/examples/hot-refresh?file=app2%2Fsrc%2FApp2.jsx
+https://stackblitz.com/github/wpmjs/import-http-webpack-plugin/tree/main/examples/hot-refresh?file=app2%2Fsrc%2FApp2.jsx
 
 ### 使用方式:
 ``` js
